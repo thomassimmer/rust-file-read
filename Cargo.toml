@@ -1,0 +1,12 @@
+[package]
+name = "rust-file-read"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+buffer = "0.1.9"
+memchr = "2.5.0"
+
+[[test]]
+name = "checks_list"
+path = "tests/limited_buffered_reader.rs"
